@@ -6,7 +6,6 @@ $username = $url["user"];
 $password = $url["pass"];
 $database = substr($url["path"], 1);
 
-
 return [
 
 
@@ -64,10 +63,10 @@ return [
 
         'mysql' => array(
             'driver' => 'mysql',
-            'host' => $host,
-            'database' => $database,
-            'username' => $username,
-            'password' => $password,
+            'host' => "us-cdbr-iron-east-04.cleardb.net",
+            'database' => "heroku_f6fb1eba1381cec",
+            'username' => "bf7bb480228288",
+            'password' => "df5c08b8",
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',

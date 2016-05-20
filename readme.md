@@ -1,8 +1,6 @@
 # methysVehicleDemo
 Vehicle Management Demo for Methys
-
 First step : 
-
 Navigate to Your Webroot ie. www or htdocs and create a folder with your desired name eg vehicles
 
 1. pull repository from github with the following commands:
@@ -28,6 +26,7 @@ Navigate to Your Webroot ie. www or htdocs and create a folder with your desired
     DB_USERNAME=sample_user
     
     DB_PASSWORD=secure_password
+3. 
 
 
 

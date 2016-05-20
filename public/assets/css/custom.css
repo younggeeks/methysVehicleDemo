@@ -1,0 +1,19 @@
+body {
+    font-family: 'Lato';
+}
+
+td a{
+    text-decoration: none!important;
+    
+}
+td a:hover{
+
+    color:white;
+}
+#color{
+    width:30px;
+    height:30px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}

@@ -16,7 +16,10 @@
 
 Route::group(['middleware' => 'auth'], function () {
 
-    Route::get('/', "VehiclesController@home");
+    Route::get('/', function(){
+        return "hello world";
+    });
+ //   Route::get('/', "VehiclesController@home");
 
     Route::controllers([
         "vehicle"=>"VehiclesController",

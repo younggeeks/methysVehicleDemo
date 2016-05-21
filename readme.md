@@ -138,7 +138,7 @@ GET /api/v1/vehicle/{vehicleId}?format={format}&token={Token}
  ## Delete Vehicle
  
   ```
- GET /api/v1/vehicle/{vehicleId}?format={format}&token={Token}
+ DELETE /api/v1/vehicle/{vehicleId}?format={format}&token={Token}
   
   ```
   

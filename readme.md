@@ -96,7 +96,15 @@ password : secret
  
  Copy The Token as you are going to need it in order to access the API
  
+ You can optionally choose the response type, either XML or JSON
+ 
  ## List All Vehicles
+    | Tables        | Are           | Cool  |
+    | ------------- |:-------------:| -----:|
+    | col 3 is      | right-aligned | $1600 |
+    | col 2 is      | centered      |   $12 |
+    | zebra stripes | are neat      |    $1 |
+    
  
  
  

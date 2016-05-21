@@ -107,8 +107,10 @@ GET /api/v1/vehicle?format={format}&token={token}
  
  ```
  
- | Left-aligned | Center-aligned | Right-aligned |
- | :---         |     :---:      |          ---: |
+ ### Parameters
+ 
+ | Name | Type  | Right-aligned  | Description
+ | :---:        |     :---:      |          :---: |
  | git status   | git status     | git status    |
  | git diff     | git diff       | git diff      |
  

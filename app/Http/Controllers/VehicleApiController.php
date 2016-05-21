@@ -32,10 +32,12 @@ class VehicleApiController extends Controller
 
     public function show($id)
     {
-        $vehicle = Vehicle::with("owner")->where("id", $id)->first()->toJson();
+        $vehicle = Vehicle::with("owner")->where("id", $id)->first();
 
-        $formatter = Formatter::make($vehicle, Formatter::XML);
-        return $formatter->toXml();
+        $formatter = Formatter::make($vehicle, Formatter::JSON);
+
+        dd($formatter);
+        dd($formatter->toXml());
     }
 
 

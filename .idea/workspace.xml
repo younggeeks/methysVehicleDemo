@@ -5,10 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/VehicleApiController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/VehicleApiController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/VehicleTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/VehicleTableSeeder.php" />
     </list>
     <ignored path="vehicles.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,8 +62,8 @@
       <file leaf-file-name="VehicleApiController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VehicleApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58388156">
-              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.62171054">
+              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
               <folding>
                 <element signature="e#40#54#0#PHP" expanded="true" />
               </folding>
@@ -836,7 +832,7 @@
       <workItem from="1463661419841" duration="40631000" />
       <workItem from="1463748487046" duration="15005000" />
       <workItem from="1463773296906" duration="8929000" />
-      <workItem from="1463789720323" duration="6401000" />
+      <workItem from="1463789720323" duration="7324000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit of Vehicle Management  Demo">
       <created>1463770104255</created>
@@ -938,7 +934,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70966000" />
+    <option name="totallyTimeSpent" value="71889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1405,8 +1401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VehicleApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58388156">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.62171054">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding>
             <element signature="e#40#54#0#PHP" expanded="true" />
           </folding>

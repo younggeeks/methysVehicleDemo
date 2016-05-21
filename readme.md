@@ -60,6 +60,7 @@ In Your Terminal type the following commands for migrating and then seeding the 
 
 ## Running The Demo
  
+Make Sure You set appropriate permissions for your directory! Permission denied is common case here
 
 Go to your browser and type the address of the application :
 

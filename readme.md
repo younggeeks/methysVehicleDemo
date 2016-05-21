@@ -77,10 +77,11 @@ password : secret
  
  - [Introduction](#introduction)
  - [List All Vehicles](#list-all-vehicles)
- - [Insert Vehicle Information](#insert-vehicle-information)
  - [View Single Vehicle](#view-single-vehicle)
- - [Edit Vehicle Information](#edit-vehicle-information)
  - [Delete Vehicle](#delete-vehicle)
+ - [Insert Vehicle Information](#insert-vehicle-information)
+ - [Edit Vehicle Information](#edit-vehicle-information)
+ 
  
  ## Introduction
  
@@ -116,6 +117,41 @@ GET /api/v1/vehicle?format={format}&token={token}
  
  
  
+ ## View Single Vehicle
+ 
+ ```
+GET /api/v1/vehicle/{vehicleId}?format={format}&token={Token}
+ 
+ ```
+ 
+ ### Parameters
+ 
+ | Name         | Type           | Description                                              |
+ | :---         |     :---:      |          :---                                            |
+ | format       |     string      | Can be XML Or JSON, it is not required                  |
+ | token        |     string     | Obtained when user is authenticated , it is required     |
+ | vehicleId        |     string     |Id of Vehicle to be Viewed, Must be valid , is required  |
+ 
+ 
+ 
+ 
+ ## Delete Vehicle
+ 
+  ```
+ GET /api/v1/vehicle/{vehicleId}?format={format}&token={Token}
+  
+  ```
+  
+  ### Parameters
+  
+  | Name         | Type           | Description                                              |
+  | :---         |     :---:      |          :---                                            |
+  | format       |     string      | Can be XML Or JSON, it is not required                  |
+  | token        |     string     | Obtained when user is authenticated , it is required     |
+  | vehicleId        |     string     |Id of  a Vehicle to be Deleted, Must be valid , is required  | 
+ 
+ 
+ 
  ## Insert Vehicle Information
  
  ```
@@ -131,31 +167,13 @@ POST /api/v1/vehicle?format={format}&token={token}&{vehicle information}
  | token        |     string     | Obtained when user is authenticated , it is required     |
  | vehicle information        |     string     | They are All required  |
  
+  
  
  
- 
- ## Insert Vehicle Information
- 
- ```
-POST /api/v1/vehicle?format={format}&token={token}&{vehicle information}
+ ## Edit Vehicle Information
  
  ```
- 
- ### Parameters
- 
- | Name         | Type           | Description                                              |
- | :---         |     :---:      |          :---                                            |
- | format       |     string      | Can be XML Or JSON, it is not required                  |
- | token        |     string     | Obtained when user is authenticated , it is required     |
- | vehicle information        |     string     | They are All required  |
- 
- 
- 
- 
- ## Insert Vehicle Information
- 
- ```
-POST /api/v1/vehicle?format={format}&token={token}&{vehicle information}
+PUT /api/v1/vehicle/{vehicleId}?{fields}&&token={your Token}
  
  ```
  
@@ -165,7 +183,8 @@ POST /api/v1/vehicle?format={format}&token={token}&{vehicle information}
  | :---         |     :---:      |          :---                                            |
  | format       |     string      | Can be XML Or JSON, it is not required                  |
  | token        |     string     | Obtained when user is authenticated , it is required     |
- | vehicle information        |     string     | They are All required  |
+ | vehicleId    |     string     | Id of the vehicle To be Updated     |
+ | fields        |     string     |Fields To be updated In the Db  |
  
  
  

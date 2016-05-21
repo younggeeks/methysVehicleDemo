@@ -111,8 +111,8 @@ GET /api/v1/vehicle?format={format}&token={token}
  
  | Name         | Type           | Description         |
  | :---         |     :---:      |          ---: |
- | git status   | git status     | git status    |
- | git diff     | git diff       | git diff      |
+ | format       |     string     | Can be XML Or JSON not required     |
+ | token        |     string       | Obtained when user is authenticated , it is required       |
  
  
  

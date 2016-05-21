@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\ModelNotFoundException;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use SoapBox\Formatter\Formatter;
 use Symfony\Component\HttpFoundation\Response;
 
 class VehicleApiController extends Controller
@@ -31,8 +32,10 @@ class VehicleApiController extends Controller
 
     public function show($id)
     {
-        $vehicle = Vehicle::with("owner")->where("id", $id)->first();
-        return $vehicle;
+        $vehicle = Vehicle::with("owner")->where("id", $id)->first()->toJson();
+
+        $formatter = Formatter::make($vehicle, Formatter::XML);
+        return $formatter->toXml();
     }
 
 

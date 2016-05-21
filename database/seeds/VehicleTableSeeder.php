@@ -18,13 +18,27 @@ class VehicleTableSeeder extends Seeder
         //getting owners ids then attaching them to random generated vehicles
         $owners= Owner::lists("id")->all();
 
+        $manufacturers=[
+            "TESLA MOTORS INCORPORATED",
+            "ASTON MARTIN LAGONDA LIMITED",
+            "BMW OF NORTH AMERICA, LLC",
+            "JAGUAR LAND ROVER NORTH AMERICA, LLC",
+            "MASERATI NORTH AMERICA, INC.",
+            "ROLLS ROYCE MOTOR CARS",
+            "TOYOTA MOTOR NORTH AMERICA, INC",
+            "BUGATTI AUTOMOBILES S.A.S",
+            "MOONLIGHT AUTO",
+        ];
+
+
+
 
 
 
         //generating fake 10 users
         foreach (range(1, count($owners)) as $index) {
             DB::table("vehicles")->insert([
-                "manufacturer"=>$faker->company,
+                "manufacturer"=>$manufacturers[array_rand($manufacturers)],
                 "color"=>substr($faker->safeHexColor,1),
                 "millage"=>$faker->numberBetween(900,8383939)." Km",
                 "year"=>$faker->year,

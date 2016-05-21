@@ -16,11 +16,15 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
 
-        $user=DB::table("users")->insert([
-            "name"=>"samwel Charles",
-            "email"=>"samjunior@kiu.ac.tz",
-            "password"=>bcrypt("secret")
+        if (sizeof(DB::table("users")->where('email', '=', "samjunior@kiu.ac.tz")->get()) < 0) {
+
+        $user = DB::table("users")->insert([
+            "name" => "samwel Charles",
+            "email" => "samjunior@kiu.ac.tz",
+            "password" => bcrypt("secret")
         ]);
+        }
+
 
         //creating faker Object
         $faker=Faker::create();

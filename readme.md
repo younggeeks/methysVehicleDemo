@@ -114,6 +114,8 @@ GET /api/v1/vehicle?format={format}&token={token}
  | format       |     string      | Can be XML Or JSON, it is not required                  |
  | token        |     string     | Obtained when user is authenticated , it is required     |
  
+ 
+ 
  ## Insert Vehicle Information
  
  ```
@@ -124,7 +126,43 @@ POST /api/v1/vehicle?format={format}&token={token}&{vehicle information}
  ### Parameters
  
  | Name         | Type           | Description                                              |
- | :---         |     :---:      |          ---:                                            |
+ | :---         |     :---:      |          :---                                            |
+ | format       |     string      | Can be XML Or JSON, it is not required                  |
+ | token        |     string     | Obtained when user is authenticated , it is required     |
+ | vehicle information        |     string     | They are All required  |
+ 
+ 
+ 
+ 
+ ## Insert Vehicle Information
+ 
+ ```
+POST /api/v1/vehicle?format={format}&token={token}&{vehicle information}
+ 
+ ```
+ 
+ ### Parameters
+ 
+ | Name         | Type           | Description                                              |
+ | :---         |     :---:      |          :---                                            |
+ | format       |     string      | Can be XML Or JSON, it is not required                  |
+ | token        |     string     | Obtained when user is authenticated , it is required     |
+ | vehicle information        |     string     | They are All required  |
+ 
+ 
+ 
+ 
+ ## Insert Vehicle Information
+ 
+ ```
+POST /api/v1/vehicle?format={format}&token={token}&{vehicle information}
+ 
+ ```
+ 
+ ### Parameters
+ 
+ | Name         | Type           | Description                                              |
+ | :---         |     :---:      |          :---                                            |
  | format       |     string      | Can be XML Or JSON, it is not required                  |
  | token        |     string     | Obtained when user is authenticated , it is required     |
  | vehicle information        |     string     | They are All required  |

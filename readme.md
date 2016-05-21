@@ -10,43 +10,28 @@ Navigate to Your Webroot ie. www or htdocs and create a folder with your desired
     git pull https://github.com/younggeeks/methysVehicleDemo.git
 
 2. Database setup 
-    Edit .env.example to .env
-    Then Fill in Your database username and password as well as your database name
-
-    Eg:
     
-    DB_CONNECTION=mysql
-    
-    DB_HOST=127.0.0.1
-    
-    DB_PORT=3306
-    
-    DB_DATABASE=sample_db
-    
-    DB_USERNAME=sample_user
-    
-    DB_PASSWORD=secure_password
 3. 
 ## Table of Contents
 
 - [Downloading](#downloading)
-- [Installation](#programming-languages)
+- [Installation](#installation)
 - [Database Migration and Seeding](#front-end-development)
 - [Api Reference](#back-end-development)
 -
 
 ## Downloading
 
-Navigate to Your Webroot ie. www or htdocs and create a folder with your desired name eg vehicles
+-Navigate to Your Webroot ie. www or htdocs and create a folder with your desired name eg vehicles
 
-pull repository from github with the following commands:
+-pull repository from github with the following commands:
 
-git init
+--git init
 
-git pull https://github.com/younggeeks/methysVehicleDemo.git
+--git pull https://github.com/younggeeks/methysVehicleDemo.git
 
 
-## Programming Languages
+## Installation
 
 - [JavaScript](https://github.com/sorrycc/awesome-javascript)
 	- [Promises](https://github.com/wbinnssmith/awesome-promises)

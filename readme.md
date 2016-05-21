@@ -110,7 +110,7 @@ GET /api/v1/vehicle?format={format}&token={token}
  ### Parameters
  
  | Name         | Type           | Description                                              |
- | :---         |     :---:      |          ---:                                            |
+ | :---         |     :---:      |          :---                                           |
  | format       |     string      | Can be XML Or JSON, it is not required                  |
  | token        |     string     | Obtained when user is authenticated , it is required     |
  

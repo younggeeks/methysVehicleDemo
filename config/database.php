@@ -55,20 +55,30 @@ return [
             'database' => env('DB_DATABASE', database_path('database.sqlite')),
             'prefix' => '',
         ],
-
-        'mysql' => [
+        'mysql' => array(
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host' => "us-cdbr-iron-east-04.cleardb.net",
+            'database' => "heroku_f6fb1eba1381cec",
+            'username' => "bf7bb480228288",
+            'password' => "df5c08b8",
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
-            'strict' => false,
-            'engine' => null,
-        ],
+        ),
+
+//        'mysql' => [
+//            'driver' => 'mysql',
+//            'host' => env('DB_HOST', 'localhost'),
+//            'port' => env('DB_PORT', '3306'),
+//            'database' => env('DB_DATABASE', 'forge'),
+//            'username' => env('DB_USERNAME', 'forge'),
+//            'password' => env('DB_PASSWORD', ''),
+//            'charset' => 'utf8',
+//            'collation' => 'utf8_unicode_ci',
+//            'prefix' => '',
+//            'strict' => false,
+//            'engine' => null,
+//        ],
 
         'pgsql' => [
             'driver' => 'pgsql',

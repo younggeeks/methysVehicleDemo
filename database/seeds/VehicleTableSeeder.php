@@ -18,16 +18,35 @@ class VehicleTableSeeder extends Seeder
         //getting owners ids then attaching them to random generated vehicles
         $owners= Owner::lists("id")->all();
 
+
         $manufacturers=[
-            "TESLA MOTORS INCORPORATED",
-            "ASTON MARTIN LAGONDA LIMITED",
-            "BMW OF NORTH AMERICA, LLC",
-            "JAGUAR LAND ROVER NORTH AMERICA, LLC",
-            "MASERATI NORTH AMERICA, INC.",
-            "ROLLS ROYCE MOTOR CARS",
-            "TOYOTA MOTOR NORTH AMERICA, INC",
-            "BUGATTI AUTOMOBILES S.A.S",
-            "MOONLIGHT AUTO",
+            "Aston Martin",
+            "Land Rover",
+            "Rolls Royce",
+            "Mercedes-Benz",
+            "Mazda",
+            "Honda",
+            "Dodge",
+            "Nissan",
+            "Mitsubishi",
+            "Volkswagen",
+            "Jeep",
+            "Volvo"
+        ];
+
+        $types=[
+            "CR-V",
+            "Odyssey",
+            "SCION xA",
+            "Corolla",
+            "FJ Cruiser",
+            "Avalon",
+            "Venza",
+            "Paseo",
+            "New Beetle",
+            "Passat",
+            "New GTI",
+            "Tiguan"
         ];
 
 
@@ -42,7 +61,7 @@ class VehicleTableSeeder extends Seeder
                 "color"=>substr($faker->safeHexColor,1),
                 "millage"=>$faker->numberBetween(900,8383939)." Km",
                 "year"=>$faker->year,
-                "type"=>$faker->streetName,
+                "type"=>$types[array_rand($types)],
                 "owner_id"=>$faker->randomElement($owners),
                 "created_at"=>$faker->dateTime,
                 "updated_at"=>$faker->dateTime

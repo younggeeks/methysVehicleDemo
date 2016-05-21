@@ -15,9 +15,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-
-        if (sizeof(DB::table("users")->where('email', '=', "samjunior@kiu.ac.tz")->get()) < 0) {
-
+        if (count(DB::table("users")->where('email', '=', "samjunior@kiu.ac.tz")->first())==0) {
         $user = DB::table("users")->insert([
             "name" => "samwel Charles",
             "email" => "samjunior@kiu.ac.tz",

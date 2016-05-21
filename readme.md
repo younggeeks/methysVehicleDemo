@@ -66,13 +66,14 @@ You will be prompted to enter Email and Password to Login
 Type The Following Demo Credentials
 
 Email : samjunior@kiu.ac.tz
+
 password : secret
  
 
 
 ## Api Reference
 
- -- ## Table Of Contents
+   ## Table Of Contents
  
  - [Introduction](#introduction)
  - [List All Vehicles](#list-all-vehicles)
@@ -80,6 +81,26 @@ password : secret
  - [View Single Vehicle](#view-single-vehicle)
  - [Edit Vehicle Information](#edit-vehicle-information)
  - [Delete Vehicle](#delete-vehicle)
+ 
+ ## Introduction
+ 
+ To access Vehicle RestApi From third party User must have a token, which is generated when user logs in
+ 
+ For Demo Purpose there is a link to obtain a token 
+ 
+ Token will expire after some time
+ 
+ Simply go to http://localhost/vehicles/public/getToken or whatever your URL may be 
+ 
+ In other words go to /getToken
+ 
+ Copy The Token as you are going to need it in order to access the API
+ 
+ ## List All Vehicles
+ 
+ 
+ 
+ 
  
  
  

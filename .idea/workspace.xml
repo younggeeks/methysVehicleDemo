@@ -28,8 +28,8 @@
       <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58181816">
-              <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.8479339">
+              <caret line="112" column="50" selection-start-line="112" selection-start-column="50" selection-end-line="112" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -802,7 +802,7 @@
       <workItem from="1463773296906" duration="8929000" />
       <workItem from="1463789720323" duration="7788000" />
       <workItem from="1463825194633" duration="3057000" />
-      <workItem from="1463831257868" duration="9456000" />
+      <workItem from="1463831257868" duration="9602000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit of Vehicle Management  Demo">
       <created>1463770104255</created>
@@ -904,7 +904,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84866000" />
+    <option name="totallyTimeSpent" value="85012000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1368,8 +1368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58181816">
-          <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.8479339">
+          <caret line="112" column="50" selection-start-line="112" selection-start-column="50" selection-end-line="112" selection-end-column="50" />
           <folding />
         </state>
       </provider>

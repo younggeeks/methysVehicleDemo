@@ -98,12 +98,19 @@ password : secret
  
  You can optionally choose the response type, either XML or JSON
  
+ If no format is specified Api will return default Type (json)
+ 
  ## List All Vehicles
  
  ```
 GET /api/v1/vehicle?format={format}&token={token}
  
  ```
+ 
+ | Left-aligned | Center-aligned | Right-aligned |
+ | :---         |     :---:      |          ---: |
+ | git status   | git status     | git status    |
+ | git diff     | git diff       | git diff      |
  
  
  

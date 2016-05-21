@@ -61,8 +61,8 @@
       <file leaf-file-name="VehicleApiController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VehicleApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58388156">
-              <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.24342105">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding>
                 <element signature="e#40#54#0#PHP" expanded="true" />
               </folding>
@@ -831,7 +831,7 @@
       <workItem from="1463661419841" duration="40631000" />
       <workItem from="1463748487046" duration="15005000" />
       <workItem from="1463773296906" duration="8929000" />
-      <workItem from="1463789720323" duration="7646000" />
+      <workItem from="1463789720323" duration="7788000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit of Vehicle Management  Demo">
       <created>1463770104255</created>
@@ -933,7 +933,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72211000" />
+    <option name="totallyTimeSpent" value="72353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1400,8 +1400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VehicleApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58388156">
-          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.24342105">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding>
             <element signature="e#40#54#0#PHP" expanded="true" />
           </folding>

@@ -30,8 +30,10 @@ class VehicleApiController extends Controller
     }
 
 
-    public function show($id,$format=null)
+    public function show($id)
     {
+        $format=$this->request->input("format");
+        
         $vehicle = Vehicle::with("owner")->where("id", $id)->first();
 
         if($format==null | $format=="json"){

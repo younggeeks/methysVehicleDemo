@@ -22,72 +22,38 @@ Navigate to Your Webroot ie. www or htdocs and create a folder with your desired
 
 ## Downloading
 
--Navigate to Your Webroot ie. www or htdocs and create a folder with your desired name eg vehicles
+Navigate to Your Webroot ie. www or htdocs and create a folder with your desired name eg vehicles
 
--pull repository from github with the following commands:
+pull repository from github with the following commands:
 
---git init
+git init
 
---git pull https://github.com/younggeeks/methysVehicleDemo.git
+git pull https://github.com/younggeeks/methysVehicleDemo.git
 
 
 ## Installation
 
-- [JavaScript](https://github.com/sorrycc/awesome-javascript)
-	- [Promises](https://github.com/wbinnssmith/awesome-promises)
-	- [Standard Style](https://github.com/feross/awesome-standard)
-	- [Must Watch Talks](https://github.com/bolshchikov/js-must-watch)
-	- [Tips](https://github.com/loverajoel/jstips)
-	- [Network Layer](https://github.com/Kikobeats/awesome-network-js)
-	- [Micro npm Packages](https://github.com/parro-it/awesome-micro-npm-packages)
-	- [Mad Science npm Packages](https://github.com/feross/awesome-mad-science)
-	- [Maintenance Modules](https://github.com/maxogden/maintenance-modules) - For npm packages
-	- [npm](https://github.com/sindresorhus/awesome-npm)
-	- [AVA](https://github.com/sindresorhus/awesome-ava) - Test runner
-	- [ESLint](https://github.com/dustinspecker/awesome-eslint)
-	- [Functional Programming](https://github.com/stoeffel/awesome-fp-js)
-	- [Observables](https://github.com/sindresorhus/awesome-observables)
-- [Swift](https://github.com/matteocrippa/awesome-swift)
-	- [Education](https://github.com/hsavit1/Awesome-Swift-Education)
-	- [Playgrounds](https://github.com/uraimo/Awesome-Swift-Playgrounds)
-- [Python](https://github.com/vinta/awesome-python)
-- [Rust](https://github.com/kud1ing/awesome-rust)
-- [Haskell](https://github.com/krispo/awesome-haskell)
-- [PureScript](https://github.com/passy/awesome-purescript)
-- [Go](https://github.com/avelino/awesome-go)
-- [Scala](https://github.com/lauris/awesome-scala)
-- [Ruby](https://github.com/markets/awesome-ruby)
-	- [Events](https://github.com/planetruby/awesome-events)
-- [Clojure](https://github.com/razum2um/awesome-clojure)
-- [ClojureScript](https://github.com/emrehan/awesome-clojurescript)
-- [Elixir](https://github.com/h4cc/awesome-elixir)
-- [Elm](https://github.com/isRuslan/awesome-elm)
-- [Erlang](https://github.com/drobakowski/awesome-erlang)
-- [Julia](https://github.com/svaksha/Julia.jl)
-- [Lua](https://github.com/LewisJEllis/awesome-lua)
-- [C](https://github.com/aleksandar-todorovic/awesome-c)
-- [C/C++](https://github.com/fffaraz/awesome-cpp)
-- [R](https://github.com/qinwf/awesome-R)
-- [D](https://github.com/zhaopuming/awesome-d)
-- [Common Lisp](https://github.com/CodyReichert/awesome-cl)
-- [Perl](https://github.com/hachiojipm/awesome-perl)
-- [Groovy](https://github.com/kdabir/awesome-groovy)
-- [Dart](https://github.com/yissachar/awesome-dart)
-- [Java](https://github.com/akullpp/awesome-java)
-	- [RxJava](https://github.com/eleventigers/awesome-rxjava)
-- [Kotlin](https://github.com/JavaBy/awesome-kotlin)
-- [OCaml](https://github.com/rizo/awesome-ocaml)
-- [Coldfusion](https://github.com/seancoyne/awesome-coldfusion)
-- [Fortran](https://github.com/rabbiabram/awesome-fortran)
-- [.NET](https://github.com/quozd/awesome-dotnet)
-- [PHP](https://github.com/ziadoz/awesome-php)
-	- [Composer](https://github.com/jakoch/awesome-composer)
-- [Delphi](https://github.com/Fr0sT-Brutal/awesome-delphi)
-- [Assembler](https://github.com/mat0thew/awesome-asm)
-- [AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey)
-- [AutoIt](https://github.com/J2TeaM/awesome-AutoIt)
-- [Crystal](https://github.com/veelenga/awesome-crystal)
-- [TypeScript](https://github.com/dzharii/awesome-typescript)
+Rename .env.example to .env
+
+Then Fill in Your database username and password as well as your database name
+
+Eg:
+
+DB_CONNECTION=mysql
+
+DB_HOST=127.0.0.1
+
+DB_PORT=3306
+
+DB_DATABASE=sample_db
+
+DB_USERNAME=sample_user
+
+DB_PASSWORD=secure_password
+
+ - Then in your terminal type:
+
+    composer install
 
 
 ## Front-end Development

@@ -24,9 +24,25 @@ class VehicleApiController extends Controller
 
     public function index()
     {
+        $format=$this->request->input("format");
         $vehicles = Vehicle::all();
 
-        return $vehicles;
+        if(empty($vehicles)){
+            return response()->json([
+                "message" => "No Vehicle found "
+            ]);
+        }
+
+        if($format==null | $format=="json"){
+            return $vehicles;
+        }elseif($format=="xml") {
+            $formatter = Formatter::make($vehicles, Formatter::JSON);
+            return $formatter->toXml();
+        }else{
+            return response()->json([
+                "message" => "Unsupported format , user json or xml"
+            ]);
+        }
     }
 
 
@@ -37,7 +53,7 @@ class VehicleApiController extends Controller
         $vehicle = Vehicle::with("owner")->where("id", $id)->first();
         if(empty($vehicle)){
             return response()->json([
-                "message" => "The Resource is not found "
+                "message" => "The Vehicle Information is not found "
             ]);
         }
 

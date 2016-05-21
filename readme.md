@@ -101,7 +101,7 @@ password : secret
  ## List All Vehicles
  
  ```
-GET /api/v1/vehicle/1272?format=xml&&token={token}
+GET /api/v1/vehicle/?format=xml&&token={token}
  ```
  
  

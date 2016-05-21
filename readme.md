@@ -1,4 +1,9 @@
-# Vehicle Management Demo For 
+# Vehicle Management Demo 
+
+Full Working Demo is available at :
+ 
+ http://vehiclesdemo.herokuapp.com/
+ 
 
 ## Table of Contents
 
@@ -54,6 +59,7 @@ In Your Terminal type the following commands for migrating and then seeding the 
 
 
 ## Running The Demo
+ 
 
 Go to your browser and type the address of the application :
 
@@ -73,7 +79,7 @@ password : secret
 
 ## Api Reference
 
-   ## Table Of Contents
+Table Of Contents
  
  - [Introduction](#introduction)
  - [List All Vehicles](#list-all-vehicles)

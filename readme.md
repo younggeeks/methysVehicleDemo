@@ -1,17 +1,5 @@
-# methysVehicleDemo
-Vehicle Management Demo for Methys
-First step : 
-Navigate to Your Webroot ie. www or htdocs and create a folder with your desired name eg vehicles
+# Vehicle Management Demo For 
 
-1. pull repository from github with the following commands:
-
-    git init
-
-    git pull https://github.com/younggeeks/methysVehicleDemo.git
-
-2. Database setup 
-    
-3. 
 ## Table of Contents
 
 - [Downloading](#downloading)

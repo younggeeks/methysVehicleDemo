@@ -16,6 +16,12 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
 
+        $user=DB::table("users")->create([
+            "name"=>"samwel Charles",
+            "email"=>"samjunior@kiu.ac.tz",
+            "password"=>bcrypt("secret")
+        ]);
+
         //creating faker Object
         $faker=Faker::create();
 

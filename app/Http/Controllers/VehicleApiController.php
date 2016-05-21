@@ -30,13 +30,20 @@ class VehicleApiController extends Controller
     }
 
 
-    public function show($id)
+    public function show($id,$format=null)
     {
         $vehicle = Vehicle::with("owner")->where("id", $id)->first();
 
-        $formatter = Formatter::make($vehicle, Formatter::JSON);
-        
-        dd($formatter->toXml());
+        if($format==null | $format=="json"){
+            return $vehicle;
+        }elseif($format=="xml") {
+            $formatter = Formatter::make($vehicle, Formatter::JSON);
+            return $formatter->toXml();
+        }else{
+            return response()->json([
+                "message" => "Unsupported format , user json or xml"
+            ]);
+        }
     }
 
 

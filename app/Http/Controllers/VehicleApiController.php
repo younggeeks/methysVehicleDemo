@@ -35,6 +35,11 @@ class VehicleApiController extends Controller
         $format=$this->request->input("format");
 
         $vehicle = Vehicle::with("owner")->where("id", $id)->first();
+        if(isEmpty($vehicle)){
+            return response()->json([
+                "message" => "The Resource is not found "
+            ]);
+        }
 
         if($format==null | $format=="json"){
             return $vehicle;

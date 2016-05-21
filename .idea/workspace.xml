@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="027c83e2-f573-46bf-a5f7-a18c30f2fe19" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="vehicles.iws" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58250827">
-              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.46864685">
+              <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -787,7 +788,7 @@
       <workItem from="1463773296906" duration="8929000" />
       <workItem from="1463789720323" duration="7788000" />
       <workItem from="1463825194633" duration="3057000" />
-      <workItem from="1463831257868" duration="2154000" />
+      <workItem from="1463831257868" duration="2490000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit of Vehicle Management  Demo">
       <created>1463770104255</created>
@@ -889,7 +890,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77564000" />
+    <option name="totallyTimeSpent" value="77900000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1351,8 +1352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58250827">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.46864685">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
           <folding />
         </state>
       </provider>

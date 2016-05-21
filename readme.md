@@ -16,9 +16,8 @@ Navigate to Your Webroot ie. www or htdocs and create a folder with your desired
 
 - [Downloading](#downloading)
 - [Installation](#installation)
-- [Database Migration and Seeding](#front-end-development)
-- [Api Reference](#back-end-development)
--
+- [Database Migration and Seeding](#Database-Migration-and-seeding)
+- [Api Reference](#Api-reference)
 
 ## Downloading
 
@@ -33,7 +32,7 @@ git pull https://github.com/younggeeks/methysVehicleDemo.git
 
 ## Installation
 
-Rename .env.example to .env
+In Your Root Directory Rename .env.example to .env
 
 Then Fill in Your database username and password as well as your database name
 
@@ -51,12 +50,12 @@ DB_USERNAME=sample_user
 
 DB_PASSWORD=secure_password
 
- - Then in your terminal type:
+> Then in your terminal type:
 
-    composer install
+ - composer install
 
 
-## Front-end Development
+## Database Migration and Seeding
 
 - [ES6 Tools](https://github.com/addyosmani/es6-tools)
 - [Web Performance Optimization](https://github.com/davidsonfellipe/awesome-wpo)

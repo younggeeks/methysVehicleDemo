@@ -35,8 +35,7 @@ class VehicleApiController extends Controller
         $vehicle = Vehicle::with("owner")->where("id", $id)->first();
 
         $formatter = Formatter::make($vehicle, Formatter::JSON);
-
-        dd($formatter);
+        
         dd($formatter->toXml());
     }
 

@@ -99,13 +99,10 @@ password : secret
  You can optionally choose the response type, either XML or JSON
  
  ## List All Vehicles
-    | Tables        | Are           | Cool  |
-    | ------------- |:-------------:| -----:|
-    | col 3 is      | right-aligned | $1600 |
-    | col 2 is      | centered      |   $12 |
-    | zebra stripes | are neat      |    $1 |
-    
  
+ ```
+GET /api/v1/vehicle/1272?format=xml&&token={token}
+ ```
  
  
  

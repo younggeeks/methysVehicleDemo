@@ -4,7 +4,7 @@
 
 - [Downloading](#downloading)
 - [Installation](#installation)
-- [Database Migration and Seeding](#Database-Migration-and-seeding)
+- [Database Migration and Seeding](#Database-Migration-and-Seeding)
 - [Api Reference](#Api-reference)
 
 ## Downloading

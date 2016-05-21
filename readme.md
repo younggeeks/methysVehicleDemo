@@ -4,8 +4,8 @@
 
 - [Downloading](#downloading)
 - [Installation](#installation)
-- [Database Migration and Seeding](#Database-Migration-and-Seeding)
-- [Api Reference](#Api-reference)
+- [Database Migration and Seeding](#database-migration-and-seeding)
+- [API Reference](#Api-Reference)
 
 ## Downloading
 
@@ -95,7 +95,7 @@ DB_PASSWORD=secure_password
 - [PostCSS](https://github.com/jjaderg/awesome-postcss)
 
 
-## Back-end Development
+## Api Reference
 
 - [Django](https://github.com/rosarior/awesome-django)
 - [Flask](https://github.com/humiaozuzu/awesome-flask)
